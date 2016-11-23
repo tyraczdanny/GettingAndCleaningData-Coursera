@@ -92,32 +92,34 @@ Taking a look at the CreateCodeBook function, it takes the reshaped molten data 
 - take the names of the variables in tidy data and put them in "Variable_abbreviated_name" column, 
 - read a text file "variable_descriptions.txt" with manually processed information from "features_info.txt" to obtain cleaner descriptions of the variables and put them in "Variable_description" column,
 - take the classes of the variables in tidy data and put them in "Variable_class" column
-- take the ranges of variables and put them in "Variable_range" column
+- take the ranges of variables and put them in "Variable_range" column (once again, the activity labels have been hard-coded to make them clearer)
 - take the averages of the appropriate variables and put them in "Variable_mean" column
 - write the resulting data frame in a markdown table format to a file
 
-	CreateCodeBook = function(x) {
-	result = data.frame(
-	Variable_abbreviated_name = names(x),
-	Variable_description = read.table("variable_descriptions.txt", sep = "\n", stringsAsFactors = F, header = F)[,1],
-	Variable_class = sapply(x, class),
-	Variable_range = sapply(x, function(y) 
-	if (class(y) == "integer" || class(y) == "numeric") {
-	paste(min(y), max(y), sep = "  -  ")
-	}
-	else if (class(y) == "factor") {
-	"Walking, WalkingUp, WalkingDown, Sitting, Standing, Laying"
-	}
-	),
-	Variable_mean = sapply(x, function(y)
-	if (class(y) == "numeric") {
-	mean(y)
-	}
-	else {
-	"Not available"
-	}
-	),
-	row.names = NULL
-	)
-	write.table(result, "codeBook.md", sep = " | ")
-	}	
+The function code:
+
+    CreateCodeBook = function(x) {
+      result = data.frame(
+      Variable_abbreviated_name = names(x),
+      Variable_description = read.table("variable_descriptions.txt", sep = "\n", stringsAsFactors = F, header = F)[,1],
+      Variable_class = sapply(x, class),
+      Variable_range = sapply(x, function(y) 
+      if (class(y) == "integer" || class(y) == "numeric") {
+        paste(min(y), max(y), sep = "  -  ")
+      }
+      else if (class(y) == "factor") {
+        "Walking, WalkingUp, WalkingDown, Sitting, Standing, Laying"
+      }
+      ),
+      Variable_mean = sapply(x, function(y)
+      if (class(y) == "numeric") {
+        mean(y)
+      }
+      else {
+        "Not available"
+      }
+      ),
+      row.names = NULL
+      )
+      write.table(result, "codeBook.md", sep = " | ")
+    }
