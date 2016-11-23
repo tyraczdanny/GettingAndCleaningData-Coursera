@@ -68,7 +68,7 @@ Afterwards, the script generates an array of column numbers which include either
     # Extract the data according to specification
     extracted_total = total_data[,append(c(1,2),mean_or_std)]
     
-Then, the script melts all columns representing the measured variables, leaving the two independent variables being the "SubjectID" and "ActivityID". After that the molten data is reshaped to meet the requirement from step 5. : "independent tidy data set with the average of each variable for each activity and each subject".
+Then, the script melts all columns representing the measured variables, leaving the two independent variables being the "SubjectID" and "ActivityID". After that the molten data is reshaped to meet the requirement from step 5. : "independent tidy data set with the average of each variable for each activity and each subject". I would like to cite this article: https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/ as a justification for reshaping the data in this way.
 
     # Melt all columns except "SubjectID" and "ActivityID" and cast the data table in the correct form
     extracted_melt = melt(extracted_total, id = names(extracted_total[1:2]), measure.vars = names(extracted_total[3:81]))
