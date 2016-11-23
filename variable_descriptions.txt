@@ -1,0 +1,81 @@
+Subject ID
+Activity ID
+Mean of time domain: body acceleration along X direction - mean
+Mean of time domain: body acceleration along Y direction - mean
+Mean of time domain: body acceleration along Z direction - mean
+Mean of time domain: body acceleration along X direction - standard deviation
+Mean of time domain: body acceleration along Y direction - standard deviation
+Mean of time domain: body acceleration along Z direction - standard deviation
+Mean of time domain: gravity acceleration along X direction - mean
+Mean of time domain: gravity acceleration along Y direction - mean
+Mean of time domain: gravity acceleration along Z direction - mean
+Mean of time domain: gravity acceleration along X direction - standard deviation
+Mean of time domain: gravity acceleration along Y direction - standard deviation
+Mean of time domain: gravity acceleration along Z direction - standard deviation
+Mean of time domain: body acceleration jerk along X direction - mean
+Mean of time domain: body acceleration jerk along Y direction - mean
+Mean of time domain: body acceleration jerk along Z direction - mean
+Mean of time domain: body acceleration jerk along X direction - standard deviation
+Mean of time domain: body acceleration jerk along Y direction - standard deviation
+Mean of time domain: body acceleration jerk along Z direction - standard deviation
+Mean of time domain: body angular velocity along X direction - mean
+Mean of time domain: body angular velocity along Y direction - mean
+Mean of time domain: body angular velocity along Z direction - mean
+Mean of time domain: body angular velocity along X direction - standard deviation
+Mean of time domain: body angular velocity along Y direction - standard deviation
+Mean of time domain: body angular velocity along Z direction - standard deviation
+Mean of time domain: body angular velocity jerk along X direction - mean
+Mean of time domain: body angular velocity jerk along Y direction - mean
+Mean of time domain: body angular velocity jerk along Z direction - mean
+Mean of time domain: body angular velocity jerk along X direction - standard deviation
+Mean of time domain: body angular velocity jerk along Y direction - standard deviation
+Mean of time domain: body angular velocity jerk along Z direction - standard deviation
+Mean of time domain: body acceleration magnitude - mean
+Mean of time domain: body acceleration magnitude - standard deviation
+Mean of time domain: gravity acceleration magnitude - mean
+Mean of time domain: gravity acceleration magnitude - standard deviation
+Mean of time domain: body acceleration jerk magnitude - mean
+Mean of time domain: body acceleration jerk magnitude - standard deviation
+Mean of time domain: body angular velocity magnitude - mean
+Mean of time domain: body angular velocity magnitude - standard deviation
+Mean of time domain: body angular velocity jerk magnitude - mean
+Mean of time domain: body angular velocity jerk magnitude - standard deviation
+Mean of frequency domain: body acceleration along X direction - mean
+Mean of frequency domain: body acceleration along Y direction - mean
+Mean of frequency domain: body acceleration along Z direction - mean
+Mean of frequency domain: body acceleration along X direction - standard deviation
+Mean of frequency domain: body acceleration along Y direction - standard deviation
+Mean of frequency domain: body acceleration along Z direction - standard deviation
+Mean of frequency domain: body acceleration along X direction - mean frequency
+Mean of frequency domain: body acceleration along Y direction - mean frequency
+Mean of frequency domain: body acceleration along Z direction - mean frequency
+Mean of frequency domain: body acceleration jerk along X direction - mean
+Mean of frequency domain: body acceleration jerk along Y direction - mean
+Mean of frequency domain: body acceleration jerk along Z direction - mean
+Mean of frequency domain: body acceleration jerk along X direction - standard deviation
+Mean of frequency domain: body acceleration jerk along Y direction - standard deviation
+Mean of frequency domain: body acceleration jerk along Z direction - standard deviation
+Mean of frequency domain: body acceleration jerk along X direction - mean frequency
+Mean of frequency domain: body acceleration jerk along Y direction - mean frequency
+Mean of frequency domain: body acceleration jerk along Z direction - mean frequency
+Mean of frequency domain: body angular velocity along X direction - mean
+Mean of frequency domain: body angular velocity along Y direction - mean
+Mean of frequency domain: body angular velocity along Z direction - mean
+Mean of frequency domain: body angular velocity along X direction - standard deviation
+Mean of frequency domain: body angular velocity along Y direction - standard deviation
+Mean of frequency domain: body angular velocity along Z direction - standard deviation
+Mean of frequency domain: body angular velocity along X direction - mean frequency
+Mean of frequency domain: body angular velocity along Y direction - mean frequency
+Mean of frequency domain: body angular velocity along Z direction - mean frequency
+Mean of frequency domain: body acceleration magnitude - mean
+Mean of frequency domain: body acceleration magnitude - standard deviation
+Mean of frequency domain: body acceleration magnitude - mean frequency
+Mean of frequency domain: body acceleration jerk magnitude - mean
+Mean of frequency domain: body acceleration jerk magnitude - standard deviation
+Mean of frequency domain: body acceleration jerk magnitude - mean frequency
+Mean of frequency domain: body angular velocity magnitude - mean
+Mean of frequency domain: body angular velocity magnitude - standard deviation
+Mean of frequency domain: body angular velocity magnitude - mean frequency
+Mean of frequency domain: body angular velocity jerk magnitude - mean
+Mean of frequency domain: body angular velocity jerk magnitude - standard deviation
+Mean of frequency domain: body angular velocity jerk magnitude - mean frequency
